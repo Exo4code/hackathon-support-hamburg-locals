@@ -1,0 +1,393 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.5;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+/* Header - Compact Design */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.app-logo .hamburg-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-right {
+    display: flex;
+    gap: 16px;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.status-indicator i {
+    width: 14px;
+    height: 14px;
+}
+
+/* Script Text Section */
+.script-text-section {
+    text-align: center;
+    padding: 24px 24px 16px;
+}
+
+.script-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 4px;
+}
+
+.script-text img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.script-subtitle {
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+    padding: 24px;
+    overflow: hidden;
+    height: calc(100vh - 150px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 320px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar-header {
+    margin-bottom: 16px;
+    flex-shrink: 0;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.sidebar-title i {
+    width: 16px;
+    height: 16px;
+}
+
+.order-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.order-text {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.order-logos {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.order-logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.15s ease;
+}
+
+.order-logo:hover {
+    opacity: 1;
+}
+
+/* Shop Cards Container */
+.slideshow-container {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 16px;
+}
+
+/* Custom Scrollbar */
+.slideshow-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.slideshow-container::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    border-radius: 3px;
+}
+
+.slideshow-container::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 3px;
+    transition: background 0.15s ease;
+}
+
+.slideshow-container::-webkit-scrollbar-thumb:hover {
+    background: #b0b0b0;
+}
+
+.slideshow-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.slide {
+    width: 100%;
+}
+
+/* Shop Card */
+.shop-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+}
+
+.shop-card:hover {
+    border-color: #d0d0d0;
+}
+
+.shop-card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.shop-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.shop-icon i {
+    width: 20px;
+    height: 20px;
+    color: #333333;
+}
+
+.shop-info {
+    flex: 1;
+}
+
+.shop-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.shop-location {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 4px;
+}
+
+.shop-teaser {
+    font-size: 12px;
+    color: #888888;
+    line-height: 1.4;
+}
+
+/* Map Container */
+.map-container {
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 8px 12px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.map-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.map-info i {
+    width: 12px;
+    height: 12px;
+}
+
+/* Custom Map Markers */
+.custom-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.custom-marker:hover {
+    transform: scale(1.1);
+}
+
+.custom-div-icon {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-width: auto;
+    }
+
+    header {
+        padding: 12px 16px;
+    }
+
+    .script-text-section {
+        padding: 16px;
+    }
+
+    .script-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-right {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+    }
+
+    .shop-card {
+        padding: 12px;
+    }
+
+    .shop-card-content {
+        gap: 10px;
+    }
+
+    .shop-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .shop-icon i {
+        width: 18px;
+        height: 18px;
+    }
+}

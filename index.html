@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburg Local Shops - Make Hamburg Great Again!</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <div class="app-logo">
+                    <img src="hamburg-icon.png" alt="Hamburg" class="hamburg-icon">
+                </div>
+                <div>
+                    <div class="header-title">Hamburg Local</div>
+                </div>
+            </div>
+            <div class="script-text-section">
+                <div class="script-text">Support your locals - Make Hamburg great again.
+                    <img src="./trump.svg" alt="TRUMP" class="trump-icon">
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <div class="sidebar-title">
+                        <i data-lucide="store"></i>
+                        Local Shops
+                    </div>
+                    <div class="order-section">
+                        <div class="order-text">Order with
+                        </div>
+                        <img src="uber eats.svg" alt="Uber Eats" class="order-logo">
+                    </div>
+                </div>
+
+                <div class="slideshow-container">
+                    <div class="slideshow-wrapper" id="slideshowWrapper">
+                        <!-- Shop cards will be dynamically generated -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-overlay">
+                    <div class="map-info">
+                        <i data-lucide="navigation"></i>
+                        <span>Hamburg City Center</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal removed - using card expansion instead -->
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

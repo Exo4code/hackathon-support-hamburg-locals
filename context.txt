@@ -1,0 +1,48 @@
+Hackathon 
+hab eine stunde Zeit
+make Hamburg great again ist das thema
+und Public Transport Reliability (Zuverlässigkeit öffentlicher Verkehrsmittel)
+	2.	Bürgeramt Appointments (Termine beim Bürgeramt)
+	3.	Reporting City Problems (Städtische Probleme melden)
+	4.	Supporting Local Shops (Lokale Geschäfte unterstützen)
+	5.	Cycling Safety (Sicherheit für Radfahrer)
+	6.	Neighborhood Coordination (Nachbarschaftskoordinierung)
+	7.	Or whatever you feel… (Oder was dir sonst einfällt…)
+
+
+das thema nehme ich 
+
+4. 🛍 Supporting Local Shops
+
+👉 Karte mit zufälligen Lokalen
+	•	Einfach ein Grid mit Shop-Icons, eines blinkt: „Heute happy hour!“
+	•	Klick öffnet ein kurzes „Shop-Info-Kärtchen“.
+	•	Humor-Variante: alle Shops heißen „Bäcker Schmidt“ 😅.
+
+    wir implementieren es mit html css js 
+
+    🍴 1. Erika’s Eck (Schanze)
+	•	Kult-Imbiss, offen bis in die frühen Morgenstunden.
+	•	Bekannt für Riesen-Schnitzel, Bauernfrühstück & Nachtschwärmer.
+
+🌭 2. Imbiss bei Schorsch (St. Pauli)
+	•	Legendäre Currywurst mit Kartoffelsalat statt Pommes.
+	•	Seit Jahrzehnten fester Bestandteil von St. Pauli.
+
+🥨 3. Bäckerei & Konditorei Rohlfs (Eppendorf)
+	•	Traditionsbäckerei, familiengeführt seit Generationen.
+	•	Bekannt für Franzbrötchen & Kuchenklassiker.
+
+🍺 4. Kleines Phi (Neustadt)
+	•	Kult-Kneipe/Bar mit Wohnzimmer-Flair.
+	•	Treffpunkt für Nachbarn, Musiker & Szenegänger.
+
+☕ 5. Café Gnosa (St. Georg)
+	•	Traditionscafé seit über 100 Jahren.
+	•	Heute Treffpunkt der LGBTQ-Community und für alle, die Kuchen & Kultur lieben.
+
+    das sind die shops die promoted werden 
+
+    ich möchte es im minimalistischen spielerischen design haben 
+
+    
